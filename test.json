@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "53d684dfef71c110b1110905" }, "name" : "Marcos", "favorite" : "lion" }
+{ "_id" : { "$oid" : "53d684efef71c110b1110906" }, "favorite" : "elephant", "name" : "Jon" }
+{ "_id" : { "$oid" : "53d6850cef71c110b1110907" }, "name" : "Bob", "favorite" : "monkey" }
+{ "_id" : { "$oid" : "53d6873eef71c110b1110908" }, "favorite" : [ "monkey", "lion", "elephant" ], "name" : "Bob" }

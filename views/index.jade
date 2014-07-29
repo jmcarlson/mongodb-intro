@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1 Wingzingly!  
+	h3 You want this!  Sign up now.
+	form(method='post' action='/signup')
+		input(type='text' name='email' placeholder='Email')
+		input(type='submit' value='Sucka Sign Up')

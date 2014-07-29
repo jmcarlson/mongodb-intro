@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	h1 Wingzingly Users
+	.users
+		each object in users
+			p #{object.email}

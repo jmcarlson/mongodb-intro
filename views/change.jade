@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1 Welcome to Wingzingly!
+	h3 Update your email here
+	form(method='post' action='/change')
+		input(type='text' name='email' value='#{email}' data-id='#{userid}')
+		input(type='submit' value='Change')
